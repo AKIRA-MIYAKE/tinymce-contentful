@@ -21,11 +21,12 @@ window.contentfulExtension.init(function(api) {
       plugins: api.parameters.instance.plugins,
       toolbar: tb,
       menubar: mb,
-      max_height: 500,
-      min_height: 300,
+      max_height: 800,
+      min_height: 600,
       autoresize_bottom_margin: 15,
       resize: false,
       image_caption: true,
+      content_css: [],
       init_instance_callback : function(editor) {
         var listening = true;
 

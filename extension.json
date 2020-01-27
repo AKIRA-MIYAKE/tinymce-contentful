@@ -1,7 +1,7 @@
 {
   "id": "TinyMCE",
   "name": "TinyMCE",
-  "src": "https://contentful.tiny.cloud/",
+  "src": "https://akira-miyake.github.io/tinymce-contentful/",
   "fieldTypes": ["Text"],
   "parameters": {
     "installation": [
@@ -28,7 +28,7 @@
         "type": "Symbol",
         "name": "Plugins",
         "description": "Space-separated list of TinyMCE plugins to enable. See https://www.tiny.cloud/docs/plugins/ for more information on plugins.",
-        "default": "autoresize textpattern lists advlist a11ychecker linkchecker media mediaembed powerpaste tinymcespellchecker advcode image",
+        "default": "preview autoresize powerpaste importcss advcode image link media mediaembed table hr anchor advlist lists checklist tinymcespellchecker a11ychecker linkchecker advtable",
         "required": false
       },
       {
