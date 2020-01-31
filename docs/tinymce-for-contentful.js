@@ -26,7 +26,10 @@ window.contentfulExtension.init(function(api) {
       autoresize_bottom_margin: 15,
       resize: false,
       image_caption: true,
-      content_css: [],
+      content_css: [
+        'https://rawgit.com/filipelinhares/ress/master/dist/ress.min.css',
+        'https://unpkg.com/basscss@8.0.2/css/basscss.min.css',
+      ],
       init_instance_callback : function(editor) {
         var listening = true;
 
