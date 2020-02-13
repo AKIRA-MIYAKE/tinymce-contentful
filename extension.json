@@ -1,7 +1,7 @@
 {
   "id": "TinyMCE",
   "name": "TinyMCE",
-  "src": "https://akira-miyake.github.io/tinymce-contentful/",
+  "src": "https://one-tap-media-tiny-editor.netlify.com",
   "fieldTypes": ["Text"],
   "parameters": {
     "installation": [
