@@ -28,7 +28,7 @@
         "type": "Symbol",
         "name": "Plugins",
         "description": "Space-separated list of TinyMCE plugins to enable. See https://www.tiny.cloud/docs/plugins/ for more information on plugins.",
-        "default": "preview autoresize importcss image link media table hr anchor advlist lists code",
+        "default": "preview importcss image link media table hr anchor advlist lists code",
         "required": false
       },
       {
